@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC
+  		"-//Apache Struts//XWork Validator 1.0.3//EN"
+  		"http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="txtNewMobileId">
+        <field-validator type="requiredstring">
+            <param name="trim">true</param>
+            <message>
+                 Mobile ID is requied!!!
+            </message>
+        </field-validator>
+    </field>
+    <field name="txtNewMobileName">
+        <field-validator type="requiredstring">
+            <param name="trim">true</param>
+            <message>
+                 Mobile Name is requied!!!
+            </message>
+        </field-validator>
+    </field>
+    <field name="txtNewPrice">
+        <field-validator type="requiredstring">
+            <param name="trim">true</param>
+            <message>
+                 Price is requied!!!
+            </message>
+        </field-validator>
+    </field>
+    <field name="txtNewQuantity">
+        <field-validator type="requiredstring">
+            <param name="trim">true</param>
+            <message>
+                 Quantity is requied!!!
+            </message>
+        </field-validator>
+    </field>
+    <field name="txtNewYearOfProduction">
+        <field-validator type="requiredstring">
+            <param name="trim">true</param>
+            <message>
+                 Year of production is requied!!!
+            </message>
+        </field-validator>
+    </field>
+</validators>
